@@ -10,5 +10,5 @@ use clap::Parser;
 
 fn main() {
     let args = Cli::parse();
-    println!("Hello, world!");
+    println!("Hello, world! The path is {1} and the pattern is {0}!", pattern, path);
 }
